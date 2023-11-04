@@ -1,0 +1,71 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    background-color: maroon;
+    background-image: linear-gradient(rgb(71, 13, 13), rgb(119, 20, 20));
+    color: white;
+    margin: 0 !important;
+    border: none;
+    padding: .3rem; 
+}
+
+header > div{
+    display: flex;
+    gap: .5rem;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    font-size: 35px;
+    color: black;
+}
+
+#en{
+    display: flex;
+    justify-content: center;
+    padding: 10px
+}
+
+#login{
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: medium;
+    margin-right: 1rem;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 8px;
+    padding: 70px ;   
+}
+
+#btn{
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;    
+}
+
+.btn-border{
+    border: 1px solid white !important;
+    padding: 10px 20px !important;
+    border-radius: 20px;
+    color: white;
+    background-color:#922B21;
+    padding: 10px;
+}
+
